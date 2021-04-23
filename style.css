@@ -1,9 +1,40 @@
 #heading{
     padding: 20px;
+    height: 150px;
 }
 #name{
     font-size: 50px;
 }
 #title{
     margin-left: 30px;
+}
+#imgDiv{
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+#photoOfMe{
+    height: 300px;
+}
+#workLinkDiv{
+    margin-top: 20px;
+}
+#gitDiv{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#linkedinDiv{
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#gitLogo{
+    height: 100px;
+}
+#linkedinLogo{
+    height: 100px;
 }
