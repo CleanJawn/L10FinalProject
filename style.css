@@ -1,9 +1,20 @@
 #heading{
     padding: 20px;
+    height: 150px;
 }
 #name{
     font-size: 50px;
 }
 #title{
     margin-left: 30px;
+}
+#imgDiv{
+    border: 5px solid white;
+    width: 315px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+#photoOfMe{
+    height: 300px;
 }
