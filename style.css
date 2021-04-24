@@ -8,12 +8,18 @@
 #title{
     margin-left: 30px;
 }
+#contactHead{
+    padding-top: 5px;
+    text-align: center;
+}
+#contact{
+    padding: 20px;
+}
 #imgDiv{
     border: 5px solid white;
     background-color: black;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
-    margin-top: 20px;
     margin-right: 25px;
 }
 #photoOfMe{
@@ -21,7 +27,7 @@
     border-radius: 10px;
 }
 #workLinkDiv{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 #gitDiv{
     border: 2px solid white;
@@ -37,10 +43,12 @@
     padding: 5px;
 }
 #gitLogo{
+    transform: scale(1,1);
     height: 100px;
 }
 #linkedinLogo{
     height: 100px;
+    transform: scale(1,1);
 }
 #socials{
     margin-top: 40px;
@@ -54,6 +62,7 @@
 #facebook{
     border-radius: 50%;
     height: 100px;
+    transform: scale(1,1);
 }
 #instagramDiv{
     border: 2px solid white;
@@ -64,6 +73,7 @@
 #instagram{
     border-radius: 25%;
     height: 100px;
+    transform: scale(1,1);
 }
 #twitterDiv{
     border: 2px solid white;
@@ -74,4 +84,45 @@
 #twitter{
     border-radius: 50%;
     height: 100px;
+    transform: scale(1,1);
+}
+#bioAndSkills{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#skills{
+    margin-top: 40px;
+}
+#skillListTitle{
+    font-size: 25px;
+}
+.gitLinks{
+    color: white;
+    font-size: 20px;
+}
+#listTitle{
+    padding: 10px;
+}
+#footer{
+    height: 150px;
+}
+#gmail{
+    height: 75px;
+    margin-top: 40px;
+    border-radius: 5%;
+}
+#email{
+    font-size: 75px;
+    margin-top: 27px;
+    margin-left: 15px;
+}
+@media(max-width: 1065px){
+    #imgDiv{
+        border: 5px solid white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
 }

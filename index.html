@@ -5,6 +5,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Nate Lamborn</title>
 </head>
@@ -13,11 +14,12 @@
         <h1 id="name">Nate Lamborn</h1>
         <h5 id="title">Full Stack Web Developer</h5>
     </div>
-    <div id="content" class="container-fluid">
+    <h3 id="contactHead">Connect with my socials!</h3>
+    <div id="contact" class="container-fluid bg-warning">
         <div class="row">
             <div class="col-8 text-center">
                 <div id="workLinkDiv" class="row text-center">
-                    <div id="gitDiv" class="offset-lg-4 offset-md-">
+                    <div id="gitDiv" class="offset-lg-3 offset-md-1">
                         <a href="https://github.com/CleanJawn">
                             <img src="images/github.jpg" id="gitLogo">
                         </a>
@@ -29,7 +31,7 @@
                     </div>
                 </div>
                 <div class="row text-center" id="socials">
-                    <div id="facebookDiv" class="offset-4">
+                    <div id="facebookDiv" class="offset-lg-3 offset-md-1">
                         <a href="https://www.facebook.com/nate.lamborn">
                             <img src="images/facebook.jpg" id="facebook">
                         </a>
@@ -46,10 +48,58 @@
                     </div>
                 </div>
             </div>
-            <div id="imgDiv" class="text-center col-3">
+            <div id="imgDiv">
                 <img src="images/Headshot.jpg" id="photoOfMe">
             </div>
         </div>
+    </div>
+    <div class="container" id="bioAndSkills">
+        <div class="row">
+            <div id="bio" class="col-6 text-center">
+                During my time in highschool, I took all the computer science related courses that I could and found that
+                I had a great interest in Computer Science and wanted to pursue a career in the field. By the time I was 
+                enrolled in college I had made the decision I would have a career in Computer Science or Education and after
+                a meeting with a school advisor I had made my decision. If I didn't want to spend an extra year attending (
+                and paying for) school, I would have to pursue teaching because of the way my university computer science 
+                program was laid out. At the time the choice was a no brainer and I started down the path towards history 
+                education. Fortunately, (and yes I DO mean fortunately,) I ended up dropping out of college after one semeseter.
+                I spent the next 4 years of my life working every job I could from retail, food, management, warehouse, healthcare, 
+                you name it. At the end of the day I knew there was something that was missing, I wanted to learn. Four years
+                after I decided to not venuture down the Comp Sci career path, I was fortunate enough to be surrounded by peers
+                that in one way or another inspired me to seek out knowledge again and once I stumbled down the rabbit hole of
+                using the wonderful tool that is the internet to teach myself a skill, I knew that my journey with Comp Sci had not 
+                ended when I enrolled in college and that it was ready for me to start again whenever I was ready. And after all that 
+                time I have decided that I am ready!
+            </div>
+            <div id="skills" class="col-3 offset-2">
+                <p id="skillListTitle">My Tech related Skills</p>
+                <ul id="skillList">
+                    <li>4 years of experience with Computer Science Courses</li>
+                    <li>Strong Foundational Knowledged of:
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML & CSS</li>
+                            <li>Python</li>
+                        </ul>
+                    </li>
+                    <li>Several years of work experience with data management</li>
+                    <li>Proficient in Video and Audio editing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary text-center" id="listTitle">
+        <h3>Take a look at some of my projects!</h3>
+    </div>
+    <div id="gitList" class="text-center"></div>
+    <div id="footer" class="container-fluid bg-warning">
+        <div class="row">
+            <div id="emailDiv" class="offset-1">
+                <img src="images/gmail.jpg" id="gmail">
+            </div>
+            <div id="email">NateJL1998@gmail.com</div>
+        </div>
+        
     </div>
 </body>
 <script src="script.js"></script>
